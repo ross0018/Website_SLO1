@@ -1,0 +1,27 @@
+section {
+    padding: 5vw 2vw;
+}
+
+/* Zorg voor een gelijke breedte van de eerste kolom */
+.equal_width_fcol {
+    width: 40%vw;
+}
+
+/* Plaats elementen met 'class="left_half"' links met breedte 50% */
+.left_half {
+    display: block;
+    float: left;
+    width: 40%;
+    margin: 0.5em;
+}
+
+/* Plaats elementen met 'class="right_half"' rechts met breedte 50% */
+.right_half {
+    display: block;
+    float: left;
+    width: 40%;
+    margin: 0.5em;
+}
+
+
+

@@ -1,0 +1,20 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: lightgrey;
+} 
+
+/* Toon copyright etc. aan de onderkant van pagina */
+.copy {
+    margin-bottom: -6em;
+}
+
+/* Kleine tekst */
+.small_right {
+    font-size: 0.7em;
+    text-align: right;
+}
+
+/* Zorg ervoor dat de pagina verder uitbreidt. */
+.clear {
+    clear: both;
+}

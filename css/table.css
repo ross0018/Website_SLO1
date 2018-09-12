@@ -1,0 +1,31 @@
+ec_table {
+    width: 90%;
+    margin: auto;
+}
+
+.ec_table > thead {
+    text-align:left;
+}   
+
+.ec_table > tbody > tr {
+    padding: 15px;
+
+}
+
+.ec_table > tbody > tr > td {
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    text-align: center;
+}
+
+.ec_table > tbody > tr.failed {
+    background-color: #FF9999;
+}
+
+.ec_table > tbody > tr.passed {
+    background-color: #99FF99;
+
+}
+
+.ec_table tbody tr:hover {background-color: #f5f5f560;}
